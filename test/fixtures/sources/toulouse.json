@@ -1,0 +1,5133 @@
+{
+  "restaurants": [
+    {
+      "id": 167,
+      "title": "Resto U' Arsenal",
+      "lat": 43.605629,
+      "lon": 1.436063,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plat",
+                  "dishes": [
+                    {
+                      "name": "Steak de poulet à la moutarde"
+                    },
+                    {
+                      "name": "Maquereau ou dos de colin fondue de tomate"
+                    },
+                    {
+                      "name": "Tartine de courgette, chèvre & miel"
+                    },
+                    {
+                      "name": "Riz pilaf"
+                    },
+                    {
+                      "name": "Haricots plats persillés"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pâtes / pizzas",
+                  "dishes": [
+                    {
+                      "name": "Pizza margarita"
+                    },
+                    {
+                      "name": "Pizza merguez"
+                    },
+                    {
+                      "name": "Pâtes bio à l’orientale"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Menu",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-01",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "title": "Brasserie L'esplanade",
+      "lat": 43.56238,
+      "lon": 1.46324,
+      "area": "Toulouse",
+      "type": "Brasserie",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Information",
+                  "dishes": [
+                    {
+                      "name": "Trio entrée / plat / dessert 20€"
+                    },
+                    {
+                      "name": "Duo entrée / plat ou plat / dessert 17€50"
+                    },
+                    {
+                      "name": "Solo plat seul 14€"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 985,
+      "title": "Brasserie Riquet",
+      "lat": 43.6057154,
+      "lon": 1.4361288,
+      "area": "Toulouse",
+      "type": "Brasserie",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Poireau mimosa"
+                    },
+                    {
+                      "name": "Crème de butternut"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Saucisse fumée lentilles"
+                    },
+                    {
+                      "name": "Végétarien : Riz Biryani, légumes rôtis"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Assiette d’Ossau Iraty"
+                    },
+                    {
+                      "name": "Tiramisu pistache framboise"
+                    },
+                    {
+                      "name": "Assiette gourmande"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Poireau mimosa"
+                    },
+                    {
+                      "name": "Crème de butternut"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Saucisse fumée lentilles"
+                    },
+                    {
+                      "name": "Végétarien : Riz Biryani, légumes rôtis"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Assiette d’Ossau Iraty"
+                    },
+                    {
+                      "name": "Tiramisu pistache framboise"
+                    },
+                    {
+                      "name": "Assiette gourmande"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Cappuccino forestier et sa crème au lard"
+                    },
+                    {
+                      "name": "Tartare crevettes et pomme"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Axoa de veau, pommes de terre grenailles"
+                    },
+                    {
+                      "name": "Filet de Daurade au beurre blanc"
+                    },
+                    {
+                      "name": "Végétarien : Gnocchis sauce parmesan et champignons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Assiette de fromage "
+                    },
+                    {
+                      "name": "Panna cotta passion – mangue"
+                    },
+                    {
+                      "name": "Assortiment gourmand"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Cappuccino forestier et sa crème au lard"
+                    },
+                    {
+                      "name": "Tartare crevettes et pomme"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Axoa de veau, pommes de terre grenailles"
+                    },
+                    {
+                      "name": "Filet de Daurade au beurre blanc"
+                    },
+                    {
+                      "name": "Végétarien : Gnocchis sauce parmesan et champignons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Assiette de fromage "
+                    },
+                    {
+                      "name": "Panna cotta passion – mangue"
+                    },
+                    {
+                      "name": "Assortiment gourmand"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Cappuccino forestier et sa crème au lard"
+                    },
+                    {
+                      "name": "Tartare crevettes et pomme"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Axoa de veau, pommes de terre grenailles"
+                    },
+                    {
+                      "name": "Filet de Daurade au beurre blanc"
+                    },
+                    {
+                      "name": "Végétarien : Gnocchis sauce parmesan et champignons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Assiette de fromage "
+                    },
+                    {
+                      "name": "Panna cotta passion – mangue"
+                    },
+                    {
+                      "name": "Assortiment gourmand"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Cappuccino forestier et sa crème au lard"
+                    },
+                    {
+                      "name": "Tartare crevettes et pomme"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Axoa de veau, pommes de terre grenailles"
+                    },
+                    {
+                      "name": "Filet de Daurade au beurre blanc"
+                    },
+                    {
+                      "name": "Végétarien : Gnocchis sauce parmesan et champignons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Assiette de fromage "
+                    },
+                    {
+                      "name": "Panna cotta passion – mangue"
+                    },
+                    {
+                      "name": "Assortiment gourmand"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Cappuccino forestier et sa crème au lard"
+                    },
+                    {
+                      "name": "Tartare crevettes et pomme"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Axoa de veau, pommes de terre grenailles"
+                    },
+                    {
+                      "name": "Filet de Daurade au beurre blanc"
+                    },
+                    {
+                      "name": "Végétarien : Gnocchis sauce parmesan et champignons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Assiette de fromage "
+                    },
+                    {
+                      "name": "Panna cotta passion – mangue"
+                    },
+                    {
+                      "name": "Assortiment gourmand"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1037,
+      "title": "Crous & go' Le Canal",
+      "lat": 43.56087,
+      "lon": 1.47213,
+      "area": "Toulouse",
+      "type": "crous and go",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 791,
+      "title": "Resto U' Le Célé",
+      "lat": 44.6088,
+      "lon": 2.01387,
+      "area": "Figeac",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 662,
+      "title": "Resto U' Insa",
+      "lat": 43.5703224,
+      "lon": 1.4679205,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Croisillon Dubarry"
+                    },
+                    {
+                      "name": "Taboulé exotique"
+                    },
+                    {
+                      "name": "Jambon blanc/beurre"
+                    },
+                    {
+                      "name": "Tomate mozzarella"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Œuf brouillé champignon"
+                    },
+                    {
+                      "name": "Fish and chips"
+                    },
+                    {
+                      "name": "Pizza kebab"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Veg Galette épinard brebis"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Pate coquillette"
+                    },
+                    {
+                      "name": "Poêlée chinoise"
+                    },
+                    {
+                      "name": "Pomme incurvée"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Crêpe chocolat"
+                    },
+                    {
+                      "name": "Fruit bio"
+                    },
+                    {
+                      "name": "Beignet framboise"
+                    },
+                    {
+                      "name": "Yaourt "
+                    },
+                    {
+                      "name": "Fromage Cantal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Salade Carmélita"
+                    },
+                    {
+                      "name": "Courgette curry"
+                    },
+                    {
+                      "name": "Pâté d foie"
+                    },
+                    {
+                      "name": "Feuilleté pêcheur"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Cordon bleu de dinde"
+                    },
+                    {
+                      "name": "Bœuf maffé façon Sénégal"
+                    },
+                    {
+                      "name": "Saucisse de porc Fumé"
+                    },
+                    {
+                      "name": "Colin à la Marocaine"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Veg Galette orge chèvre miel"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Haricot coco moutarde"
+                    },
+                    {
+                      "name": "Pate torti tricolore"
+                    },
+                    {
+                      "name": "Poêlée villageoise petit pois"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Fruit bio"
+                    },
+                    {
+                      "name": "Donuts"
+                    },
+                    {
+                      "name": "Crème chocolat"
+                    },
+                    {
+                      "name": "Yaourt bio"
+                    },
+                    {
+                      "name": "Brownie"
+                    },
+                    {
+                      "name": "Fromage Emmental"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Œuf Andalouse"
+                    },
+                    {
+                      "name": "Avocat/Macédoine"
+                    },
+                    {
+                      "name": "Feuilleté fromage"
+                    },
+                    {
+                      "name": "Riz estival"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Veg Bruschetta tomate chèvre"
+                    },
+                    {
+                      "name": "Veg Bouchée seitan lentille"
+                    },
+                    {
+                      "name": "Veg Lasagne ricotta"
+                    },
+                    {
+                      "name": "Veg Tarte tomate chèvre"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Pomme de terre vapeur"
+                    },
+                    {
+                      "name": "Poêlée brocolis carottes"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Cake au citron"
+                    },
+                    {
+                      "name": "Mille feuille "
+                    },
+                    {
+                      "name": "Crème dessert"
+                    },
+                    {
+                      "name": "Fruit bio"
+                    },
+                    {
+                      "name": "Fromage Morbier"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Acras de morue"
+                    },
+                    {
+                      "name": "Betterave//maïs"
+                    },
+                    {
+                      "name": "Jambon sec/beurre"
+                    },
+                    {
+                      "name": "Salade de pate"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Travers de porc laqué"
+                    },
+                    {
+                      "name": "Colin pané"
+                    },
+                    {
+                      "name": "Entrecôte de bœuf grillée"
+                    },
+                    {
+                      "name": "Chipolatas de porc"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Veg Tarte provençale"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Pate penne rigate"
+                    },
+                    {
+                      "name": "Navet/tomate/petit pois"
+                    },
+                    {
+                      "name": "Haricot vert persillé"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Gâteau Basque"
+                    },
+                    {
+                      "name": "Paris Brest"
+                    },
+                    {
+                      "name": "Yaourt Liégeois"
+                    },
+                    {
+                      "name": "Fruit bio"
+                    },
+                    {
+                      "name": "Fromage Brebis"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Saucisson beurre"
+                    },
+                    {
+                      "name": "Carotte râpée"
+                    },
+                    {
+                      "name": "Œuf tatare"
+                    },
+                    {
+                      "name": "Salade de blé"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Nems au poulet"
+                    },
+                    {
+                      "name": "Poisson Bordelaise"
+                    },
+                    {
+                      "name": "Poulet rôti"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Veg Emincé teriyaki"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Riz petit pois"
+                    },
+                    {
+                      "name": "Haricot vert persillé"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Nid abeille"
+                    },
+                    {
+                      "name": "Tarte aux pommes crumble fruit"
+                    },
+                    {
+                      "name": "Yaourt bio"
+                    },
+                    {
+                      "name": "Fruit bio"
+                    },
+                    {
+                      "name": "Fromage Saint Nectaire"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 663,
+      "title": "Resto U' Auch",
+      "lat": 43.6468,
+      "lon": 0.57769,
+      "area": "Auch",
+      "type": "Restaurant",
+      "menus": []
+    },
+    {
+      "id": 664,
+      "title": "Resto U' Lapérouse",
+      "lat": 43.91809,
+      "lon": 2.1365,
+      "area": "Albi",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "title": "Resto U' Enseeiht",
+      "lat": 43.6024,
+      "lon": 1.45538,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "Hachis Parmentier de Poisson"
+                    },
+                    {
+                      "name": "Galette de blé et fromage"
+                    },
+                    {
+                      "name": "Omelette au Fromage"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Brocolis"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "Poulet en Paupiette"
+                    },
+                    {
+                      "name": "Émincé Végétal"
+                    },
+                    {
+                      "name": "Poisson à la Bordelaise"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Semoule"
+                    },
+                    {
+                      "name": "Poêlée de légumes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "Risotto de Potiron"
+                    },
+                    {
+                      "name": "Curry de Patate Douce"
+                    },
+                    {
+                      "name": "Tarte aux Légumes"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Blé"
+                    },
+                    {
+                      "name": "Poelée de légumes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "Sauté de Dinde"
+                    },
+                    {
+                      "name": "Poisson à la Bordelaise"
+                    },
+                    {
+                      "name": "Croissant Montagnarde"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Purée"
+                    },
+                    {
+                      "name": "Chou-fleur persillé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "Tortellini au Boeuf"
+                    },
+                    {
+                      "name": "Coeur de Merlu"
+                    },
+                    {
+                      "name": "Mafé de légumes"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Poelée de légumes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 666,
+      "title": "Resto U' Castres",
+      "lat": 43.62403,
+      "lon": 2.264605,
+      "area": "Castres",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 667,
+      "title": "Cafet' Les Oliviers",
+      "lat": 43.5691223,
+      "lon": 1.4649632,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 668,
+      "title": "Resto U' Ensat",
+      "lat": 43.533517,
+      "lon": 1.489637,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Lasagnes (pois cassés et aubergines)"
+                    },
+                    {
+                      "name": "Emincé de porc"
+                    },
+                    {
+                      "name": "Colin, sauce coco et curry"
+                    }
+                  ]
+                },
+                {
+                  "name": "Accompagnements",
+                  "dishes": [
+                    {
+                      "name": "Pommes de terre cuites à la vapeur"
+                    },
+                    {
+                      "name": "Flan duo de poivrons"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Bruschetta Orientale"
+                    },
+                    {
+                      "name": "Axoa de canard"
+                    },
+                    {
+                      "name": "Poisson frais du marché"
+                    }
+                  ]
+                },
+                {
+                  "name": "Accompagnements",
+                  "dishes": [
+                    {
+                      "name": "Riz pilaff"
+                    },
+                    {
+                      "name": "Carottes et céleris"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1103,
+      "title": "Cafet' Ensat",
+      "lat": 43.533518,
+      "lon": 1.489637,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-11-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 9 Novembre 2026 au Vendredi 13 Novembre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 9 Novembre 2026 au Vendredi 13 Novembre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 9 Novembre 2026 au Vendredi 13 Novembre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 9 Novembre 2026 au Vendredi 13 Novembre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 669,
+      "title": "Cafet' Manufacture des Tabacs",
+      "lat": 43.6053969,
+      "lon": 1.4325866,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 670,
+      "title": "Cafet' Capitole",
+      "lat": 43.60695,
+      "lon": 1.4366,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 671,
+      "title": "Cafet' des Puits Creusés",
+      "lat": 43.60691,
+      "lon": 1.43823,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 672,
+      "title": "Cafet' Arsenal",
+      "lat": 43.6055032,
+      "lon": 1.4357214,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Dans la formule Repas à 1 euro",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dans la formule Plaisir",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Hors formule",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Dans la formule Repas à 1 euro",
+                  "dishes": [
+                    {
+                      "name": "• Normand (Pain baguette, jambon, lamelles de pomme de terre, oignon rouge émincé, camembert)"
+                    },
+                    {
+                      "name": "• Thon (Pain nordique, thon, mayo, vinaigrette basilic, concombre cube, salade, tomates)"
+                    },
+                    {
+                      "name": "• Provençale (Salade, pdt cubes, haricots verts, thon, œuf, tomates cerises, olives noires) "
+                    },
+                    {
+                      "name": "• Pasta box penne pois courge"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dans la formule Plaisir",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Hors formule",
+                  "dishes": [
+                    {
+                      "name": "• Méditerranée (Pain bio, thon, œuf, mayo, vinaigrette basilic, salade, tomate) - Petit prix"
+                    },
+                    {
+                      "name": "• Panini :"
+                    },
+                    {
+                      "name": "Poulet Tikka Massala ; jambon / fromage ; tomate / mozzarella"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 673,
+      "title": "Resto U' Envt",
+      "lat": 43.6002708,
+      "lon": 1.3843158,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "MENU TRADITIONNEL",
+                  "dishes": [
+                    {
+                      "name": "ENTRÉES :"
+                    },
+                    {
+                      "name": "Wrap crudités"
+                    },
+                    {
+                      "name": "Salade tunisienne"
+                    },
+                    {
+                      "name": "Tomate, basilic"
+                    },
+                    {
+                      "name": "Carottes râpées"
+                    },
+                    {
+                      "name": "Coleslaw"
+                    },
+                    {
+                      "name": "Taboulé"
+                    },
+                    {
+                      "name": "Tomates œuf"
+                    },
+                    {
+                      "name": "Betteraves maïs "
+                    },
+                    {
+                      "name": "Tomates maïs thon"
+                    },
+                    {
+                      "name": "Chou-fleur moutarde"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "MENU :"
+                    },
+                    {
+                      "name": "Pizza poulet curry"
+                    },
+                    {
+                      "name": "Porc rôti longe sauce charcutière "
+                    },
+                    {
+                      "name": "Calmar curry rouge olives"
+                    },
+                    {
+                      "name": "Gnocchis pesto petits pois "
+                    },
+                    {
+                      "name": "Riz créole "
+                    },
+                    {
+                      "name": "Macédoine"
+                    },
+                    {
+                      "name": "Brandade de morue "
+                    },
+                    {
+                      "name": " "
+                    },
+                    {
+                      "name": "DESSERTS :"
+                    },
+                    {
+                      "name": "Mousse au chocolat noir"
+                    },
+                    {
+                      "name": "Éclair au chocolat"
+                    },
+                    {
+                      "name": "Entremet flan chocolat"
+                    },
+                    {
+                      "name": "Compote multifruit"
+                    },
+                    {
+                      "name": "Paris Brest"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "title": "Resto U' Blagnac",
+      "lat": 43.6512073,
+      "lon": 1.3737232,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Œuf mayonnaise"
+                    },
+                    {
+                      "name": "Tarte aux légumes"
+                    },
+                    {
+                      "name": "Jambon blanc, beurre"
+                    },
+                    {
+                      "name": "Soupe aux légumes maison"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "MENU TRADITIONNEL",
+                  "dishes": [
+                    {
+                      "name": "Blanc de poulet grillé"
+                    },
+                    {
+                      "name": "Omelette aux fromages"
+                    },
+                    {
+                      "name": "Galette seitan légumes"
+                    },
+                    {
+                      "name": "Riz madras"
+                    },
+                    {
+                      "name": "Mélange de légumes"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Beignet chocolat"
+                    },
+                    {
+                      "name": "Crème caramel"
+                    },
+                    {
+                      "name": "Crème chocolat"
+                    },
+                    {
+                      "name": "Compote pomme, banane"
+                    },
+                    {
+                      "name": "Yaourt bio"
+                    },
+                    {
+                      "name": "Mousse cappuccino"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Pizza bande"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Œuf mayonnaise"
+                    },
+                    {
+                      "name": "Avocat nature"
+                    },
+                    {
+                      "name": "Surimi"
+                    },
+                    {
+                      "name": "Salade de pâte, thon"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "MENU TRADITIONNEL",
+                  "dishes": [
+                    {
+                      "name": "Poulet tajine pruneau, petit pois"
+                    },
+                    {
+                      "name": "Cube de poisson à la normande"
+                    },
+                    {
+                      "name": "Chakchouka"
+                    },
+                    {
+                      "name": "Semoule"
+                    },
+                    {
+                      "name": "Poêlée méridionale"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Donuts"
+                    },
+                    {
+                      "name": "Banane chocolat"
+                    },
+                    {
+                      "name": "Entremet caramel beurre salé"
+                    },
+                    {
+                      "name": "Yaourt bio"
+                    },
+                    {
+                      "name": "Fruit"
+                    },
+                    {
+                      "name": "Compote de pomme"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Feuilleté aux fromages"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Œuf mayonnaise"
+                    },
+                    {
+                      "name": "Coleslaw"
+                    },
+                    {
+                      "name": "Macédoine, œuf"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "MENU TRADITIONNEL",
+                  "dishes": [
+                    {
+                      "name": "Burger cheddar, pomme de terre, oignons"
+                    },
+                    {
+                      "name": "Chili de légumes"
+                    },
+                    {
+                      "name": "Pâte au beurre"
+                    },
+                    {
+                      "name": "Haricot vert persillé"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Éclair au chocolat"
+                    },
+                    {
+                      "name": "Éclair à la vanille"
+                    },
+                    {
+                      "name": "Liegeois"
+                    },
+                    {
+                      "name": "Île flottante"
+                    },
+                    {
+                      "name": "Compote de poire"
+                    },
+                    {
+                      "name": "Fruit"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fromage St Paulin"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Pâté de foie"
+                    },
+                    {
+                      "name": "Croissant montagnard"
+                    },
+                    {
+                      "name": "Soupe de potiron maison"
+                    },
+                    {
+                      "name": "Œuf mayonnaise"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "MENU TRADITIONNEL",
+                  "dishes": [
+                    {
+                      "name": "Émincé de porc sauce champignon"
+                    },
+                    {
+                      "name": "Colin coco, curry"
+                    },
+                    {
+                      "name": "Lasagne pois cassé, aubergine"
+                    },
+                    {
+                      "name": "Pomme de terre vapeur"
+                    },
+                    {
+                      "name": "Flan duo de poivrons"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Paris Brest"
+                    },
+                    {
+                      "name": "Mousse au chocolat"
+                    },
+                    {
+                      "name": "Compote pomme, abricot"
+                    },
+                    {
+                      "name": "Fruit"
+                    },
+                    {
+                      "name": "Yaourt bio"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Surimi"
+                    },
+                    {
+                      "name": "Soupe de légumes maison"
+                    },
+                    {
+                      "name": "Œuf mayonnaise"
+                    },
+                    {
+                      "name": "Feuilleté aux fromages"
+                    },
+                    {
+                      "name": "Salade de pâte"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "MENU TRADITIONNEL",
+                  "dishes": [
+                    {
+                      "name": "Canard axoa"
+                    },
+                    {
+                      "name": "Poisson du jour"
+                    },
+                    {
+                      "name": "Bruschetta orientale"
+                    },
+                    {
+                      "name": "Riz pilaf"
+                    },
+                    {
+                      "name": "Carottes persillées"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Donuts"
+                    },
+                    {
+                      "name": "Yaourt bio"
+                    },
+                    {
+                      "name": "Fruit"
+                    },
+                    {
+                      "name": "Compote de pomme"
+                    },
+                    {
+                      "name": "Crème caramel"
+                    },
+                    {
+                      "name": "crème vanille"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "*sous réserve de changements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "title": "Resto U' Le Théorème",
+      "lat": 43.5619026,
+      "lon": 1.4638067,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Salade piémontaise (porc)"
+                    },
+                    {
+                      "name": "Pamplemousse"
+                    },
+                    {
+                      "name": "Betterave"
+                    },
+                    {
+                      "name": "Salade de pois chiche"
+                    },
+                    {
+                      "name": "Pâtes au poulet"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stands traditionnels (au centre et à droite)",
+                  "dishes": [
+                    {
+                      "name": "Kébab de poulet"
+                    },
+                    {
+                      "name": "Bœuf bourguignon"
+                    },
+                    {
+                      "name": "Merlu en croute d’épices"
+                    },
+                    {
+                      "name": "Clafoutis pomme de terre, comté et emmental"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Garnitures",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Poêlée indienne"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Mille feuilles"
+                    },
+                    {
+                      "name": "Tarte au chocolat"
+                    },
+                    {
+                      "name": "Gruyère"
+                    },
+                    {
+                      "name": "Banane"
+                    },
+                    {
+                      "name": "Crème praliné"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Stand grillade et pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Consignes",
+                  "dishes": [
+                    {
+                      "name": "Petit rappel : pensez à régler votre repas avec Izly !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "title": "Resto U' Le Canal",
+      "lat": 43.5609,
+      "lon": 1.47184,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 678,
+      "title": "Resto U' Tarbes",
+      "lat": 43.22763,
+      "lon": 0.05087,
+      "area": "Tarbes",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 679,
+      "title": "Resto U' Labège",
+      "lat": 43.5558496,
+      "lon": 1.503661,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jours",
+                  "dishes": [
+                    {
+                      "name": "Emincé de porc"
+                    },
+                    {
+                      "name": "Poisson frais du marché"
+                    },
+                    {
+                      "name": "Mac and cheese"
+                    }
+                  ]
+                },
+                {
+                  "name": "Accompagnements",
+                  "dishes": [
+                    {
+                      "name": "Pâtes (fusilli bio)"
+                    },
+                    {
+                      "name": "Pommes de terre cuites à la vapeur"
+                    },
+                    {
+                      "name": "Flan duo de poivrons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "Frites"
+                    },
+                    {
+                      "name": "Merguez (bœuf/mouton)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jours",
+                  "dishes": [
+                    {
+                      "name": "Axoa de canard"
+                    },
+                    {
+                      "name": "Paupiette de poisson"
+                    },
+                    {
+                      "name": "Boulettes (pois chiches)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Accompagnements",
+                  "dishes": [
+                    {
+                      "name": "Riz pilaff"
+                    },
+                    {
+                      "name": "Carottes persillés"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "Saucisse de Strasbourg (porc)"
+                    },
+                    {
+                      "name": "Frites"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 680,
+      "title": "Resto U' Médecine",
+      "lat": 43.56338,
+      "lon": 1.45925,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Sauté de dinde"
+                    },
+                    {
+                      "name": "Merlu en croute d'épices"
+                    },
+                    {
+                      "name": "Clafouti tomate feta"
+                    },
+                    {
+                      "name": "Riz pilaf"
+                    },
+                    {
+                      "name": "Courgette provençale"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Escalope porc"
+                    },
+                    {
+                      "name": "Poisson du jour"
+                    },
+                    {
+                      "name": "Polenta "
+                    },
+                    {
+                      "name": "Fusilli"
+                    },
+                    {
+                      "name": "Aubergine napolitaine"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Chipolatas"
+                    },
+                    {
+                      "name": "Omelette aux poivrons"
+                    },
+                    {
+                      "name": "Tarte tomate chèvre"
+                    },
+                    {
+                      "name": "Purée de pomme de terre"
+                    },
+                    {
+                      "name": "Ratatouille"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Paupiette de poulet"
+                    },
+                    {
+                      "name": "Colin à la bordelaise"
+                    },
+                    {
+                      "name": "Pâtes aux légumes"
+                    },
+                    {
+                      "name": "Boulgour"
+                    },
+                    {
+                      "name": "Duo fleurette"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Fajitas"
+                    },
+                    {
+                      "name": "Pâtes fèves quinoa"
+                    },
+                    {
+                      "name": "Riz au curry"
+                    },
+                    {
+                      "name": "Poêlée de légumes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Jambon grillé"
+                    },
+                    {
+                      "name": "Cœur de merlu"
+                    },
+                    {
+                      "name": "Galette blé fromage épinard"
+                    },
+                    {
+                      "name": "Blé haricots blancs"
+                    },
+                    {
+                      "name": "Tomate provençale"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Dinde cordon bleu"
+                    },
+                    {
+                      "name": "Poisson du jour"
+                    },
+                    {
+                      "name": "Gnocchis arrabiatta"
+                    },
+                    {
+                      "name": "Coquillettes"
+                    },
+                    {
+                      "name": "Poêlée de légumes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Saucisse de porc"
+                    },
+                    {
+                      "name": "Tarte au fromage"
+                    },
+                    {
+                      "name": "Oeufs brouillés aux fines herbes"
+                    },
+                    {
+                      "name": "Fusilli"
+                    },
+                    {
+                      "name": "Brocolis"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Blanquette de dinde"
+                    },
+                    {
+                      "name": "Poisson aux amandes"
+                    },
+                    {
+                      "name": "Curry de patate douce"
+                    },
+                    {
+                      "name": "Riz forestier"
+                    },
+                    {
+                      "name": "Carottes persillées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Axoa de canard"
+                    },
+                    {
+                      "name": "Poisson du jour"
+                    },
+                    {
+                      "name": "Couscous végétal"
+                    },
+                    {
+                      "name": "Semoule aux raisins"
+                    },
+                    {
+                      "name": "Légumes couscous"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "title": "Resto U' Arum",
+      "lat": 43.5766,
+      "lon": 1.40104,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "title": "Cafet' Le Théorème",
+      "lat": 43.562441,
+      "lon": 1.46369,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Formule ptit dej express",
+                  "dishes": [
+                    {
+                      "name": "boisson chaude classique"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie classique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Formule ptit dej complet",
+                  "dishes": [
+                    {
+                      "name": "1 grande boisson chaude"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 viennoiserie"
+                    },
+                    {
+                      "name": "+"
+                    },
+                    {
+                      "name": "1 minute Maid 33 cl"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Click and collect",
+                  "dishes": [
+                    {
+                      "name": "réouverture envisagée en novembre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1453,
+      "title": "Cafet' Le Saint-Eloi",
+      "lat": 44.360409,
+      "lon": 2.577262,
+      "area": "Rodez",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 806,
+      "title": "Cafet' Arum",
+      "lat": 43.57667,
+      "lon": 1.40112,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1452,
+      "title": "Resto U' Le Saint-Eloi",
+      "lat": 44.360307,
+      "lon": 2.577149,
+      "area": "Rodez",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 986,
+      "title": "Cafet' Médecine",
+      "lat": 43.5634023,
+      "lon": 1.4603476,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 987,
+      "title": "Cafet' Tarbes",
+      "lat": 43.22763,
+      "lon": 0.05087,
+      "area": "Tarbes",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d un café ou d un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 988,
+      "title": "Cafet' La Boussole",
+      "lat": 43.9198215,
+      "lon": 2.1374132,
+      "area": "Albi",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 996,
+      "title": "Cafet' Enseeiht",
+      "lat": 43.60252,
+      "lon": 1.45548,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 994,
+      "title": "Crous Truck' de Toulouse",
+      "lat": 43.564121,
+      "lon": 1.468022,
+      "area": "Toulouse Crous Truck'",
+      "type": "Foodtruck",
+      "menus": []
+    },
+    {
+      "id": 997,
+      "title": "Resto U' Inspé",
+      "lat": 43.5806199,
+      "lon": 1.4494941,
+      "area": "Toulouse",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Chipolatas aux herbes"
+                    },
+                    {
+                      "name": "Omelette au fromage"
+                    },
+                    {
+                      "name": "Galette quinoa provençale"
+                    },
+                    {
+                      "name": "purée de pommes de terre"
+                    },
+                    {
+                      "name": "Duo fleurette"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Dinde cordon bleu"
+                    },
+                    {
+                      "name": "Colin curry coco"
+                    },
+                    {
+                      "name": "Tarte aux poireaux"
+                    },
+                    {
+                      "name": "blé"
+                    },
+                    {
+                      "name": "poêlée rustique"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Pâtes pois chiches fromage"
+                    },
+                    {
+                      "name": "Galette blé fromage épinards"
+                    },
+                    {
+                      "name": "coquillettes"
+                    },
+                    {
+                      "name": "carottes persillées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "nems de poulet"
+                    },
+                    {
+                      "name": "cœur de merlu"
+                    },
+                    {
+                      "name": "curry pois chiche et riz"
+                    },
+                    {
+                      "name": "riz"
+                    },
+                    {
+                      "name": "épinards béchamel"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Piste traditionnelle",
+                  "dishes": [
+                    {
+                      "name": "Rôti de bœuf"
+                    },
+                    {
+                      "name": "poisson aux amandes"
+                    },
+                    {
+                      "name": "gnocchis gratinés"
+                    },
+                    {
+                      "name": "pommes rissolées"
+                    },
+                    {
+                      "name": "haricots plats persillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1083,
+      "title": "Cafet' Insa",
+      "lat": 43.57007,
+      "lon": 1.46904,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1028,
+      "title": "Crous & go' La Cantine",
+      "lat": 43.578005,
+      "lon": 1.4018971,
+      "area": "Toulouse",
+      "type": "crous and go",
+      "menus": [
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1038,
+      "title": "Moovy Market ICAM",
+      "lat": 43.597967,
+      "lon": 1.415045,
+      "area": "Toulouse",
+      "type": "Libre-service",
+      "menus": []
+    },
+    {
+      "id": 1084,
+      "title": "Cafet' Le Célé",
+      "lat": 44.61372,
+      "lon": 2.01018,
+      "area": "Figeac",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 1197,
+      "title": "Cafet' MFJA",
+      "lat": 43.562272,
+      "lon": 1.489684,
+      "area": "Toulouse",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 1316,
+      "title": "Brasserie Ponsan",
+      "lat": 43.5634023,
+      "lon": 1.4603476,
+      "area": "Toulouse",
+      "type": "Brasserie",
+      "menus": []
+    },
+    {
+      "id": 1317,
+      "title": "Brasserie Insa",
+      "lat": 43.57007,
+      "lon": 1.46904,
+      "area": "Toulouse",
+      "type": "Brasserie",
+      "menus": []
+    },
+    {
+      "id": 1444,
+      "title": "Crous Truck' de Castres ",
+      "lat": 43.62478,
+      "lon": 2.26474,
+      "area": "Castres",
+      "type": "Foodtruck",
+      "menus": []
+    },
+    {
+      "id": 1432,
+      "title": "Cafet' Le Kiosque IUT",
+      "lat": 43.13376,
+      "lon": 0.02553,
+      "area": "Tarbes",
+      "type": "Cafétéria",
+      "menus": []
+    }
+  ]
+}

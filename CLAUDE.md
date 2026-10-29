@@ -31,16 +31,20 @@ pushing.
 ## Architecture
 
 ```
-index.js                          SDK wiring only: handlers registered before connect()
-src/devices/index.js              registry of the device blueprints + dispatch helpers
-src/devices/<type>.js             one device type per file (buildDevice, onPoll, onSetValue...)
-src/scenes.js                     scene action handlers (manifest `scene_actions`)
-src/widgets.js                    dashboard widget handlers (manifest `widgets`)
+index.js                          SDK wiring only (src/app.js registers every handler)
+src/app.js                        handlers registered before connect(), test seams (fetch, now, timers)
+src/sources.js                    the Crous Mobile feed: 26 regional Crous, parsing into restaurants/days/meals
+src/service.js                    runtime: feeds read on a timer, discovery, states, scene triggers, status
+src/devices.js                    the restaurant device, its states, the texts of a meal
+src/scenes.js                     scene action menu_of_day (manifest `scene_actions`)
+src/widgets.js                    dashboard widget menus (manifest `widgets`)
+src/messages.js                   every text sent from the container, in en/fr/de/es
 src/config.js                     DEFAULT_CONFIG (mirrors the manifest defaults) + normalization
-src/weather.js                    example driver (Open-Meteo)
+src/http.js, dates.js, text.js    capped HTTP with ETag, Paris calendar, dish-name helpers
 gladys-assistant-integration.json manifest: name, config_schema, actions, image...
-docs/en.md, docs/fr.md            user documentation, re-hosted by Gladys (mandatory)
-test/                             node --test, against the SDK's fake Gladys (integration-sdk/testing)
+docs/{en,fr,de,es}.md             user documentation, re-hosted by Gladys (mandatory)
+test/                             node --test, against the SDK's fake Gladys and the real feeds
+                                  of Toulouse and Rennes (test/fixtures/sources, 2026-10-29)
 .github/scripts/release.mjs       release helpers (manifest bump, changelog), tested in test/
 ```
 
@@ -250,3 +254,26 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
 - Docs `en`, `fr`, `de`, `es` avec les mêmes sections.
 - Chauffe, ouverture, sécurité : ne rien rendre pilotable « comme un thermostat » ou par un assistant
   vocal quand une erreur serait dangereuse (leçon d'OctoPrint).
+
+## Menus du Crous (cette intégration)
+
+- **Source** : `http://webservices-v2.crous-mobile.fr/feed/<crous>/externe/crous-<crous>.min.json`, le flux de
+  l'application Crous Mobile, un par Crous régional (26 dossiers à l'index `/feed/` le 29/10/2026 ; `externe` n'en
+  est pas un). **HTTP seulement** : en HTTPS, le serveur répond 404. ETag et `Last-Modified` : requête
+  conditionnelle (304). Paris pèse 3 Mo (menus à deux mois), Antilles-Guyane 8 Ko.
+- Le JSON contient des **retours à la ligne bruts dans les chaînes** : `JSON.parse` échoue sur 19 Crous sur 26.
+  `parseBody` remplace les caractères de contrôle par des espaces avant d'analyser.
+- C'est le même contenu que `menu.xml` (HTML en CDATA : `<h2>midi</h2><h4>Plat</h4><ul>…`), déjà découpé en
+  `menus[].meal[].foodcategory[].dishes[].name` : pas de HTML à analyser.
+- Repas : `matin`, `midi`, `soir` (le petit déjeuner n'est pas repris). Un même jour peut avoir **deux blocs
+  `midi`** (cafétérias) : fusionnés. Rubriques au choix du restaurant (« Plat », « ENTREES », « 2 - Plats chauds »,
+  « Le repas à tarif social en Cafétéria »…).
+- Fermeture : rubrique `Fermeture` et plat « Structure fermée du … au … ». « menu non communiqué » et les
+  rubriques sans plat (« HORAIRES », « Information » avec les tarifs) donnent « Menu non communiqué ». Plats vides
+  et avis « * : certains produits… » écartés.
+- Végétarien : seulement ce que le restaurant signale (plat « Veg … », « végétarien », « veggie », « vegan », ou
+  rubrique végétarienne sans viande ni poisson dans son nom). « Yaourt végétal » n'en est pas.
+- Identifiants : `restaurant:<crous>-<id du flux>` (ex. `toulouse-167`) ; les clés de Crous contiennent un point
+  (`aix.marseille`), conservé par `slug`. Les ids de restaurant sont numériques et stables dans le flux.
+- Beaucoup de restaurants n'ont aucun menu (Aix-Marseille : 0 sur 48 le 29/10) ou seulement les jours ouverts :
+  un jour absent avant le dernier jour publié est « Pas de service », après « Menu pas encore publié ».

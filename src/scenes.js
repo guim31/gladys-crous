@@ -1,41 +1,59 @@
 // -----------------------------------------------------------------------------
-// Scene actions (SDK v0.14+, Gladys 5.1+).
+// Scene actions (manifest `scene_actions`, Gladys 5.1+).
 //
-// A scene action is an OPERATION a scene author places in a scene, with
-// parameters and a result: "identify this device", "take a snapshot", "clean
-// these rooms". Each one is declared in the manifest `scene_actions` field
-// (key, label, `fields` in the config_schema grammar, scalar `outputs`) and
-// handled here, keyed by that same `key`; index.js registers every entry with
-// `gladys.onSceneAction(key, ...)`.
+// - menu_of_day: today's or tomorrow's menu of the watched restaurants (all
+//   of them, or the one picked) as a sentence ready for a message or a
+//   speaker ("Resto U' Arsenal, demain. Midi : Plat : …"), plus a number for
+//   a "Continue only if" step.
 //
-// Scene TRIGGERS are the other direction ("this happened"): they are fired by
-// the device that observes the event, see src/devices/motionSensor.js.
-//
-// The rules that matter:
-//   - `fields` arrive RESOLVED: scene variables substituted, defaults applied,
-//     validated by the core; a `"source": "devices"` field is the chosen
-//     device external_id;
-//   - resolve an object of the declared `outputs` (scalars only), readable by
-//     the following actions of the scene, or `undefined` for none. Keys not
-//     declared in the manifest are dropped by the core;
-//   - throwing fails THIS action only: the scene logs it and continues. A
-//     scene action is never a condition: return an output and let the scene
-//     author gate on it;
-//   - never fire a scene event as a consequence of a received action: a scene
-//     bound to that event would loop through the integration.
+// A scene action does not receive the user's language: the sentence follows
+// the `language` of the configuration. Outputs are numbers, never booleans:
+// the core's "Continue only if" compares with ===. The core applies no
+// `default` to an action field: an empty day is today, an empty meal is
+// lunch and dinner.
 // -----------------------------------------------------------------------------
 
-import { createLogger } from '@gladysassistant/integration-sdk';
-import { signalDevice } from './devices/index.js';
+import { SLOTS, servesOn } from './devices.js';
+import { TEXT, say } from './messages.js';
 
-const logger = createLogger({ name: 'scenes' });
+export class SceneError extends Error {}
+
+const chosenIds = (value) =>
+  (Array.isArray(value) ? value : value ? [value] : []).map(String).filter(Boolean);
 
 export const SCENE_ACTIONS = {
-  // The ack is awaited under the action's `timeout_seconds` (15 s in the
-  // manifest), counted from the moment the scene reaches the action.
-  async identify_device(gladys, { fields, config }) {
-    logger.info(`Scene action identify_device <- ${fields.device}`);
-    const signalled = await signalDevice(gladys, fields.device, config);
-    return { signalled };
+  async menu_of_day(service, { fields }) {
+    const language = service.config.language;
+    // Asked right at start: the first reading, not "not published".
+    await service.firstReading();
+    const watched = service.watched();
+    if (watched.length === 0) {
+      throw new SceneError(say(TEXT, language, 'noRestaurant'));
+    }
+    const asked = chosenIds(fields?.restaurant);
+    const chosen = watched.filter((entry) => asked.includes(entry.deviceId));
+    if (asked.length > 0 && chosen.length === 0) {
+      throw new SceneError(say(TEXT, language, 'gone'));
+    }
+    const day = fields?.day === 'tomorrow' ? 'tomorrow' : 'today';
+    const slots = SLOTS.includes(fields?.meal) ? [fields.meal] : SLOTS;
+    const entries = chosen.length > 0 ? chosen : watched;
+    let served = 0;
+    for (const entry of entries) {
+      const { found, date } = service.dayOf(entry.deviceId, day);
+      const restaurant = found?.restaurant;
+      if (
+        restaurant &&
+        (slots.length === SLOTS.length
+          ? servesOn(restaurant, date)
+          : restaurant.days.get(date)?.[slots[0]]?.status === 'menu')
+      ) {
+        served += 1;
+      }
+    }
+    return {
+      sentence: entries.map((entry) => service.sentence(entry, day, language, slots)).join(' '),
+      has_menu: served > 0 ? 1 : 0,
+    };
   },
 };
