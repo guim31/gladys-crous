@@ -16,7 +16,7 @@ import { SLOTS, servesOn, slotText, vegetarianDishes } from './devices.js';
 import { TEXT, say } from './messages.js';
 import { parisMinutes } from './dates.js';
 import { WIDGET_KEY } from './service.js';
-import { clip } from './text.js';
+import { clip, fold } from './text.js';
 
 export const MAX_ROWS = 8;
 
@@ -41,12 +41,16 @@ function details(restaurant, date, language, slots) {
   return clip(blocks.join('\n\n'), 2000);
 }
 
-/** The subtitle: the first section of the first meal served, or why there is none. */
+/**
+ * The subtitle: the main courses ("Plat", "Plats chauds"…) of the first meal
+ * served, else its first section, or why there is none.
+ */
 function headline(restaurant, date, language, slots) {
   for (const slot of slots) {
     const meal = restaurant.days.get(date)?.[slot];
     if (meal?.status === 'menu') {
-      return meal.sections[0].dishes.join(', ');
+      const main = meal.sections.find((s) => /^plat/.test(fold(s.name))) ?? meal.sections[0];
+      return main.dishes.join(', ');
     }
   }
   return slotText(restaurant, date, slots[0], language);

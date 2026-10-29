@@ -33,10 +33,11 @@ export const FEATURE_KEYS = ['open_today', 'lunch', 'dinner', 'vegetarian'];
 export const restaurantPlatformId = (crousKey, restaurantId) =>
   `${slug(crousKey)}-${slug(restaurantId)}`;
 
-// "Veg Galette épinard", "Couscous végétarien", "Bowl veggie", a section
+// "Veg Galette épinard", "VG Bouchée kefta" (Lyon), "Couscous végétarien",
+// "Bowl veggie", a section
 // "Plat végétarien"; not "Yaourt végétal" nor a "Viande / poisson / végé"
 // section.
-const VEGETARIAN_WORD = /(^|[^a-z])(veg|vege|veggie|vegan|vegetarien|vegetarienne)s?([^a-z]|$)/;
+const VEGETARIAN_WORD = /(^|[^a-z])(vg|veg|vege|veggie|vegan|vegetarien|vegetarienne)s?([^a-z]|$)/;
 const MEAT_OR_FISH = /viande|poisson|carne/;
 
 /** The dishes of a meal the restaurant marks as vegetarian. */

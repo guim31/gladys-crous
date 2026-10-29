@@ -271,7 +271,7 @@ test("widget: today's and tomorrow's menus, a badge for vegetarian, hideable par
     list.items.map((item) => [item.title, item.subtitle]),
     [
       ["Resto U' Insa · Aujourd'hui", 'Pas de service'],
-      ["Resto U' Insa · Demain", 'Croisillon Dubarry, Taboulé exotique, Jambon blanc/beurre,…'],
+      ["Resto U' Insa · Demain", 'Œuf brouillé champignon, Fish and chips, Pizza kebab, Veg G…'],
       ["Brasserie L'esplanade · Aujourd'hui", 'Pas de service'],
       // Only its prices are published: open, menu not given.
       ["Brasserie L'esplanade · Demain", 'Menu non communiqué'],

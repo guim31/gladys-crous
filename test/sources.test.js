@@ -88,11 +88,16 @@ test('vegetarian dishes: marked by the dish or by its section, not a "végétal"
     name: 'midi',
     foodcategory: [
       { name: 'Plat végétarien', dishes: [{ name: 'Dahl de lentilles' }] },
+      { name: 'Plat chaud', dishes: [{ name: 'VG Bouchée kefta' }, { name: 'Rougail saucisse' }] },
       { name: 'Viande / poisson / végé', dishes: [{ name: 'Poulet rôti' }] },
       { name: 'Desserts', dishes: [{ name: 'Yaourt végétal' }, { name: 'Brownie vegan' }] },
     ],
   });
-  assert.deepEqual(vegetarianDishes(meal), ['Dahl de lentilles', 'Brownie vegan']);
+  assert.deepEqual(vegetarianDishes(meal), [
+    'Dahl de lentilles',
+    'VG Bouchée kefta',
+    'Brownie vegan',
+  ]);
 });
 
 test('two lunch blocks of a cafeteria the same day are merged', () => {
