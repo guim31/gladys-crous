@@ -1,0 +1,1719 @@
+{
+  "restaurants": [
+    {
+      "id": 437,
+      "title": "Resto U' Hoche",
+      "lat": 48.116811,
+      "lon": -1.675434,
+      "area": "Rennes Centre",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "title": "Resto U' le Métronome",
+      "lat": 48.121628,
+      "lon": -1.701811,
+      "area": "Rennes ouest-Villejean",
+      "type": "Restaurant",
+      "menus": []
+    },
+    {
+      "id": 440,
+      "title": "Resto U' l'Ereve",
+      "lat": 48.119579,
+      "lon": -1.702149,
+      "area": "Rennes ouest-Villejean",
+      "type": "Restaurant",
+      "menus": []
+    },
+    {
+      "id": 441,
+      "title": "Resto U' Mélénik",
+      "lat": 48.12286,
+      "lon": -1.685289,
+      "area": "Rennes ouest-Villejean",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "title": "Resto U' Fougères",
+      "lat": 48.118448,
+      "lon": -1.671041,
+      "area": "Rennes Centre",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "1 - Hors d'oeuvres",
+                  "dishes": [
+                    {
+                      "name": "Carotte râpée"
+                    },
+                    {
+                      "name": "Salade de riz a l’indienne (Poulet)"
+                    },
+                    {
+                      "name": "Salade de tomate mozzarella (VG)"
+                    }
+                  ]
+                },
+                {
+                  "name": "3 - Desserts",
+                  "dishes": [
+                    {
+                      "name": "Crêpe confiture fraise "
+                    },
+                    {
+                      "name": "Mousse au chocolat"
+                    },
+                    {
+                      "name": "Compote de pomme"
+                    },
+                    {
+                      "name": "Yaourts / Crème dessert / Fromage"
+                    }
+                  ]
+                },
+                {
+                  "name": "2 - Plats chauds",
+                  "dishes": [
+                    {
+                      "name": "Cordon bleu de dinde"
+                    },
+                    {
+                      "name": "Tarte tomate chèvre basilic (VG)"
+                    },
+                    {
+                      "name": "Purée / Courgette rôtie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "title": "Moovy Market' Duchesse-Annes",
+      "lat": 48.12243,
+      "lon": -1.669217,
+      "area": "Rennes Centre",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "title": "Resto U' Etoile",
+      "lat": 48.122703,
+      "lon": -1.640056,
+      "area": "Rennes est-Beaulieu",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "title": "Resto U' Astrolabe",
+      "lat": 48.120425,
+      "lon": -1.638532,
+      "area": "Rennes est-Beaulieu",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "title": "Crous Market' IUT Brest",
+      "lat": 48.400146,
+      "lon": -4.506157,
+      "area": "Brest",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "title": "Resto U' Tohannic",
+      "lat": 47.645918,
+      "lon": -2.747656,
+      "area": "Vannes",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "title": "Crous Market' IUT Vannes",
+      "lat": 47.6442927,
+      "lon": -2.7760469,
+      "area": "Vannes",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "title": "Resto U' Kercado ",
+      "lat": 47.64859,
+      "lon": -2.78022,
+      "area": "Vannes",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 623,
+      "title": "Crous Market' Paquebot",
+      "lat": 47.7453734,
+      "lon": -3.3865201,
+      "area": "Lorient",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "title": "Resto U' Lanveur",
+      "lat": 47.743133,
+      "lon": -3.388148,
+      "area": "Lorient",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 622,
+      "title": "Crous Market' St-Maudé",
+      "lat": 47.746819,
+      "lon": -3.393996,
+      "area": "Lorient",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "title": "Resto U' Ker Ys",
+      "lat": 47.982267,
+      "lon": -4.097153,
+      "area": "Quimper",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "title": "Resto U' Pierre-Jakez Hélias",
+      "lat": 47.9724,
+      "lon": -4.0938,
+      "area": "Quimper",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "title": "Resto U' Kergoat",
+      "lat": 48.399596772012956,
+      "lon": -4.507284051702989,
+      "area": "Brest",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Hors d oeuvre",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats Chaud",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "title": "Resto U' Armen",
+      "lat": 48.39818,
+      "lon": -4.493626,
+      "area": "Brest",
+      "type": "Restaurant",
+      "menus": []
+    },
+    {
+      "id": 461,
+      "title": "Resto U' Branly",
+      "lat": 48.75732,
+      "lon": -3.451556,
+      "area": "Lannion",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "title": "Resto U' Trégor",
+      "lat": 48.729205,
+      "lon": -3.461512,
+      "area": "Lannion",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "title": "Resto U' Mazier",
+      "lat": 48.512724,
+      "lon": -2.740069,
+      "area": "Saint Brieuc",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "title": "Resto U' St-Malo",
+      "lat": 48.656727,
+      "lon": -1.974173,
+      "area": "Saint Malo",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 566,
+      "title": "Resto U' Ker Lann",
+      "lat": 48.04669,
+      "lon": -1.74152,
+      "area": "Bruz",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Mercredi 28 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Mercredi 28 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 568,
+      "title": "Crous Market' IUT - Clos Courtel",
+      "lat": 48.1275452,
+      "lon": -1.6291106,
+      "area": "Rennes est-Beaulieu",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1205,
+      "title": "Crous Market' Langues",
+      "lat": 48.119757,
+      "lon": -1.701815,
+      "area": "Rennes ouest-Villejean",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 1206,
+      "title": "Crous Market' Ker Lann",
+      "lat": 48.0448384,
+      "lon": -1.7436425,
+      "area": "Bruz",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Mercredi 28 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Mercredi 28 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1204,
+      "title": "Crous Market' l'Ereve",
+      "lat": 48.119579,
+      "lon": -1.702149,
+      "area": "Rennes ouest-Villejean",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 612,
+      "title": "Crous Market' Hall B",
+      "lat": 48.119579,
+      "lon": -1.702149,
+      "area": "Rennes ouest-Villejean",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 1202,
+      "title": "Crous Market' Fougères",
+      "lat": 48.118448,
+      "lon": -1.671041,
+      "area": "Rennes Centre",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "title": "Crous Market' Astrolabe",
+      "lat": 48.120625,
+      "lon": -1.638732,
+      "area": "Rennes est-Beaulieu",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1420,
+      "title": "Crous Market' Armen",
+      "lat": 0,
+      "lon": 0,
+      "area": "Brest",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 619,
+      "title": "Resto U' Centre (Brest)",
+      "lat": 48.3927562,
+      "lon": -4.4877299,
+      "area": "Brest",
+      "type": "Restaurant",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 620,
+      "title": "Crous Market' Centre (Brest)",
+      "lat": 48.3927562,
+      "lon": -4.4877299,
+      "area": "Brest",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 621,
+      "title": "Crous Market' Kergoat",
+      "lat": 48.399596772012956,
+      "lon": -4.507284051702989,
+      "area": "Brest",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1207,
+      "title": "Crous Market' Tohannic",
+      "lat": 47.645918,
+      "lon": -2.747656,
+      "area": "Vannes",
+      "type": "Cafétéria",
+      "menus": [
+        {
+          "date": "2026-10-29",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Lundi 26 Octobre 2026 au Vendredi 30 Octobre 2026    "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 967,
+      "title": "Crous Market' Santé",
+      "lat": 48.117874,
+      "lon": -1.696279,
+      "area": "Rennes ouest-Villejean",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 971,
+      "title": "Crous Market' Métronome",
+      "lat": 48.121728,
+      "lon": -1.701911,
+      "area": "Rennes ouest-Villejean",
+      "type": "Cafétéria",
+      "menus": []
+    },
+    {
+      "id": 1265,
+      "title": "Crous Market' STAPS",
+      "lat": 48.12624740600586,
+      "lon": -1.7106717824935913,
+      "area": "Rennes ouest-Villejean",
+      "type": "Cafétéria",
+      "menus": []
+    }
+  ]
+}

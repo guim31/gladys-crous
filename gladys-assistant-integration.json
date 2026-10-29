@@ -1,177 +1,948 @@
 {
   "manifest_version": 1,
   "type": "device",
-  "name": "Demo Devices Template",
+  "name": "Menus du Crous",
   "description": {
-    "en": "Starter template showing sensors, a switch, a dimmable light and a smart plug.",
-    "fr": "Template de démarrage : capteurs, interrupteur, lampe variable et prise connectée."
+    "en": "Daily menus of the Crous university restaurants and cafeterias, all over France.",
+    "fr": "Menus du jour des restaurants universitaires et cafétérias du Crous, partout en France.",
+    "de": "Tagesmenüs der Crous-Mensen und -Cafeterien in ganz Frankreich.",
+    "es": "Menús del día de los restaurantes universitarios y cafeterías del Crous en toda Francia."
   },
   "version": "1.0.0",
-  "docker_image": "ghcr.io/gladysassistant/integration-template-js:1.0.0",
-  "gladys_version": ">=5.1.0",
-  "cover_image": "https://raw.githubusercontent.com/GladysAssistant/integration-template-js/master/cover.png",
-  "categories": ["lighting", "security", "environment"],
-  "transports": ["local", "cloud"],
+  "docker_image": "ghcr.io/guim31/gladys-crous:1.0.0",
+  "gladys_version": ">=5.3.0",
+  "cover_image": "https://raw.githubusercontent.com/guim31/gladys-crous/main/cover.png",
+  "categories": ["services"],
+  "transports": ["cloud"],
+  "countries": ["FR"],
+  "keywords": [
+    "Crous",
+    "resto U",
+    "restaurant universitaire",
+    "menu",
+    "étudiant",
+    "university restaurant",
+    "cafétéria"
+  ],
   "config_schema": [
     {
       "key": "intro",
       "type": "section",
-      "label": { "en": "Getting started", "fr": "Pour commencer" },
+      "label": {
+        "en": "How it works",
+        "fr": "Fonctionnement",
+        "de": "So funktioniert es",
+        "es": "Funcionamiento"
+      },
       "description": {
-        "en": "The demo weather station reads real data from the free Open-Meteo API: pick the coordinates to observe. No account, no API key.",
-        "fr": "La station météo de démonstration lit de vraies données via l'API gratuite Open-Meteo : choisissez les coordonnées à observer. Pas de compte, pas de clé d'API."
+        "en": "Tick your regional Crous and save: its restaurants appear in the Discover tab. Add yours to Gladys. No account, no key.",
+        "fr": "Cochez votre Crous régional et enregistrez : ses restaurants apparaissent dans l'onglet Découverte. Ajoutez le vôtre à Gladys. Sans compte ni clé.",
+        "de": "Kreuze deinen regionalen Crous an und speichere: seine Restaurants erscheinen im Tab „Entdecken“. Füge deines zu Gladys hinzu. Kein Konto, kein Schlüssel.",
+        "es": "Marque su Crous regional y guarde: sus restaurantes aparecen en la pestaña Descubrir. Añada el suyo a Gladys. Sin cuenta ni clave."
       },
       "links": [
         {
-          "url": "https://open-meteo.com/en/docs",
-          "label": { "en": "Open-Meteo documentation", "fr": "Documentation Open-Meteo" }
+          "url": "https://github.com/guim31/gladys-crous/blob/main/docs/en.md",
+          "label": {
+            "en": "Setup guide",
+            "fr": "Guide de configuration",
+            "de": "Einrichtungsanleitung",
+            "es": "Guía de configuración"
+          }
         }
       ]
     },
     {
-      "key": "latitude",
-      "type": "number",
-      "label": { "en": "Latitude", "fr": "Latitude" },
-      "description": {
-        "en": "Latitude used for the demo weather sensor.",
-        "fr": "Latitude utilisée par le capteur météo de démonstration."
+      "key": "crous",
+      "type": "multi_select",
+      "label": {
+        "en": "Regional Crous",
+        "fr": "Crous régionaux",
+        "de": "Regionale Crous",
+        "es": "Crous regionales"
       },
-      "placeholder": { "en": "e.g. 48.8566", "fr": "ex. 48.8566" },
-      "required": true,
-      "default": 48.8566,
-      "min": -90,
-      "max": 90
-    },
-    {
-      "key": "longitude",
-      "type": "number",
-      "label": { "en": "Longitude", "fr": "Longitude" },
       "description": {
-        "en": "Longitude used for the demo weather sensor.",
-        "fr": "Longitude utilisée par le capteur météo de démonstration."
+        "en": "The Crous of your university town.",
+        "fr": "Le Crous de votre ville universitaire.",
+        "de": "Der Crous deiner Universitätsstadt.",
+        "es": "El Crous de su ciudad universitaria."
       },
-      "placeholder": { "en": "e.g. 2.3522", "fr": "ex. 2.3522" },
-      "required": true,
-      "default": 2.3522,
-      "min": -180,
-      "max": 180
-    },
-    {
-      "key": "unit",
-      "type": "select",
-      "label": { "en": "Temperature unit", "fr": "Unité de température" },
-      "required": false,
-      "default": "celsius",
       "options": [
-        { "value": "celsius", "label": { "en": "Celsius", "fr": "Celsius" } },
-        { "value": "fahrenheit", "label": { "en": "Fahrenheit", "fr": "Fahrenheit" } }
+        {
+          "value": "aix.marseille",
+          "label": {
+            "en": "Aix-Marseille-Avignon",
+            "fr": "Aix-Marseille-Avignon",
+            "de": "Aix-Marseille-Avignon",
+            "es": "Aix-Marseille-Avignon"
+          }
+        },
+        {
+          "value": "amiens",
+          "label": {
+            "en": "Amiens-Picardie",
+            "fr": "Amiens-Picardie",
+            "de": "Amiens-Picardie",
+            "es": "Amiens-Picardie"
+          }
+        },
+        {
+          "value": "antilles.guyane",
+          "label": {
+            "en": "Antilles-Guyane",
+            "fr": "Antilles-Guyane",
+            "de": "Antilles-Guyane",
+            "es": "Antilles-Guyane"
+          }
+        },
+        {
+          "value": "bfc",
+          "label": {
+            "en": "Bourgogne-Franche-Comté",
+            "fr": "Bourgogne-Franche-Comté",
+            "de": "Bourgogne-Franche-Comté",
+            "es": "Bourgogne-Franche-Comté"
+          }
+        },
+        {
+          "value": "bordeaux",
+          "label": {
+            "en": "Bordeaux-Aquitaine",
+            "fr": "Bordeaux-Aquitaine",
+            "de": "Bordeaux-Aquitaine",
+            "es": "Bordeaux-Aquitaine"
+          }
+        },
+        {
+          "value": "clermont.ferrand",
+          "label": {
+            "en": "Clermont Auvergne",
+            "fr": "Clermont Auvergne",
+            "de": "Clermont Auvergne",
+            "es": "Clermont Auvergne"
+          }
+        },
+        {
+          "value": "corte",
+          "label": {
+            "en": "Corse",
+            "fr": "Corse",
+            "de": "Corse",
+            "es": "Corse"
+          }
+        },
+        {
+          "value": "creteil",
+          "label": {
+            "en": "Créteil",
+            "fr": "Créteil",
+            "de": "Créteil",
+            "es": "Créteil"
+          }
+        },
+        {
+          "value": "grenoble",
+          "label": {
+            "en": "Grenoble Alpes",
+            "fr": "Grenoble Alpes",
+            "de": "Grenoble Alpes",
+            "es": "Grenoble Alpes"
+          }
+        },
+        {
+          "value": "lille",
+          "label": {
+            "en": "Lille Nord-Pas-de-Calais",
+            "fr": "Lille Nord-Pas-de-Calais",
+            "de": "Lille Nord-Pas-de-Calais",
+            "es": "Lille Nord-Pas-de-Calais"
+          }
+        },
+        {
+          "value": "limoges",
+          "label": {
+            "en": "Limoges",
+            "fr": "Limoges",
+            "de": "Limoges",
+            "es": "Limoges"
+          }
+        },
+        {
+          "value": "lyon",
+          "label": {
+            "en": "Lyon",
+            "fr": "Lyon",
+            "de": "Lyon",
+            "es": "Lyon"
+          }
+        },
+        {
+          "value": "montpellier",
+          "label": {
+            "en": "Montpellier-Occitanie",
+            "fr": "Montpellier-Occitanie",
+            "de": "Montpellier-Occitanie",
+            "es": "Montpellier-Occitanie"
+          }
+        },
+        {
+          "value": "nancy.metz",
+          "label": {
+            "en": "Lorraine (Nancy-Metz)",
+            "fr": "Lorraine (Nancy-Metz)",
+            "de": "Lorraine (Nancy-Metz)",
+            "es": "Lorraine (Nancy-Metz)"
+          }
+        },
+        {
+          "value": "nantes",
+          "label": {
+            "en": "Nantes Pays de la Loire",
+            "fr": "Nantes Pays de la Loire",
+            "de": "Nantes Pays de la Loire",
+            "es": "Nantes Pays de la Loire"
+          }
+        },
+        {
+          "value": "nice",
+          "label": {
+            "en": "Nice-Toulon",
+            "fr": "Nice-Toulon",
+            "de": "Nice-Toulon",
+            "es": "Nice-Toulon"
+          }
+        },
+        {
+          "value": "normandie",
+          "label": {
+            "en": "Normandie",
+            "fr": "Normandie",
+            "de": "Normandie",
+            "es": "Normandie"
+          }
+        },
+        {
+          "value": "orleans.tours",
+          "label": {
+            "en": "Orléans-Tours",
+            "fr": "Orléans-Tours",
+            "de": "Orléans-Tours",
+            "es": "Orléans-Tours"
+          }
+        },
+        {
+          "value": "paris",
+          "label": {
+            "en": "Paris",
+            "fr": "Paris",
+            "de": "Paris",
+            "es": "Paris"
+          }
+        },
+        {
+          "value": "poitiers",
+          "label": {
+            "en": "Poitiers",
+            "fr": "Poitiers",
+            "de": "Poitiers",
+            "es": "Poitiers"
+          }
+        },
+        {
+          "value": "reims",
+          "label": {
+            "en": "Reims",
+            "fr": "Reims",
+            "de": "Reims",
+            "es": "Reims"
+          }
+        },
+        {
+          "value": "rennes",
+          "label": {
+            "en": "Rennes Bretagne",
+            "fr": "Rennes Bretagne",
+            "de": "Rennes Bretagne",
+            "es": "Rennes Bretagne"
+          }
+        },
+        {
+          "value": "reunion",
+          "label": {
+            "en": "La Réunion",
+            "fr": "La Réunion",
+            "de": "La Réunion",
+            "es": "La Réunion"
+          }
+        },
+        {
+          "value": "strasbourg",
+          "label": {
+            "en": "Strasbourg",
+            "fr": "Strasbourg",
+            "de": "Strasbourg",
+            "es": "Strasbourg"
+          }
+        },
+        {
+          "value": "toulouse",
+          "label": {
+            "en": "Toulouse Occitanie",
+            "fr": "Toulouse Occitanie",
+            "de": "Toulouse Occitanie",
+            "es": "Toulouse Occitanie"
+          }
+        },
+        {
+          "value": "versailles",
+          "label": {
+            "en": "Versailles",
+            "fr": "Versailles",
+            "de": "Versailles",
+            "es": "Versailles"
+          }
+        }
       ]
     },
     {
-      "key": "poll_frequency",
-      "type": "number",
-      "label": { "en": "Refresh interval (s)", "fr": "Intervalle de rafraîchissement (s)" },
-      "description": {
-        "en": "How often sensors are polled, in seconds (one minute minimum).",
-        "fr": "Fréquence d'interrogation des capteurs, en secondes (une minute minimum)."
-      },
+      "key": "home_position",
+      "type": "string",
       "required": false,
-      "default": 300,
-      "min": 60,
-      "max": 3600
+      "label": {
+        "en": "Home position",
+        "fr": "Position de la maison",
+        "de": "Position des Zuhauses",
+        "es": "Posición de casa"
+      },
+      "description": {
+        "en": "Latitude, longitude: restaurants nearest first in the Discover tab.",
+        "fr": "Latitude, longitude : restaurants les plus proches en premier dans la Découverte.",
+        "de": "Breitengrad, Längengrad: die nächsten Restaurants zuerst im Tab „Entdecken“.",
+        "es": "Latitud, longitud: los restaurantes más cercanos primero en Descubrir."
+      },
+      "placeholder": {
+        "en": "43.6045, 1.4440",
+        "fr": "43.6045, 1.4440",
+        "de": "43.6045, 1.4440",
+        "es": "43.6045, 1.4440"
+      }
+    },
+    {
+      "key": "max_distance",
+      "type": "select",
+      "default": "all",
+      "label": {
+        "en": "Restaurants offered",
+        "fr": "Restaurants proposés",
+        "de": "Angebotene Restaurants",
+        "es": "Restaurantes propuestos"
+      },
+      "description": {
+        "en": "Around the home position, when it is set.",
+        "fr": "Autour de la position de la maison, si elle est renseignée.",
+        "de": "Rund um die Position des Zuhauses, wenn sie gesetzt ist.",
+        "es": "Alrededor de la posición de casa, si está indicada."
+      },
+      "options": [
+        {
+          "value": "all",
+          "label": {
+            "en": "All of the Crous",
+            "fr": "Tous ceux du Crous",
+            "de": "Alle des Crous",
+            "es": "Todos los del Crous"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "en": "Within 2 km",
+            "fr": "À moins de 2 km",
+            "de": "Im Umkreis von 2 km",
+            "es": "A menos de 2 km"
+          }
+        },
+        {
+          "value": "5",
+          "label": {
+            "en": "Within 5 km",
+            "fr": "À moins de 5 km",
+            "de": "Im Umkreis von 5 km",
+            "es": "A menos de 5 km"
+          }
+        },
+        {
+          "value": "10",
+          "label": {
+            "en": "Within 10 km",
+            "fr": "À moins de 10 km",
+            "de": "Im Umkreis von 10 km",
+            "es": "A menos de 10 km"
+          }
+        },
+        {
+          "value": "25",
+          "label": {
+            "en": "Within 25 km",
+            "fr": "À moins de 25 km",
+            "de": "Im Umkreis von 25 km",
+            "es": "A menos de 25 km"
+          }
+        }
+      ]
+    },
+    {
+      "key": "watched_words",
+      "type": "string",
+      "required": false,
+      "label": {
+        "en": "Watched words",
+        "fr": "Mots surveillés",
+        "de": "Überwachte Wörter",
+        "es": "Palabras vigiladas"
+      },
+      "description": {
+        "en": "Comma-separated, for the \"Watched dish on the menu\" trigger.",
+        "fr": "Séparés par des virgules, pour le déclencheur « Plat surveillé au menu ».",
+        "de": "Durch Kommas getrennt, für den Auslöser „Überwachtes Gericht im Menü“.",
+        "es": "Separadas por comas, para el disparador «Plato vigilado en el menú»."
+      },
+      "placeholder": {
+        "en": "frites, pizza, poisson",
+        "fr": "frites, pizza, poisson",
+        "de": "frites, pizza, poisson",
+        "es": "frites, pizza, poisson"
+      }
+    },
+    {
+      "key": "refresh_interval",
+      "type": "select",
+      "default": "6",
+      "label": {
+        "en": "Refresh",
+        "fr": "Rafraîchissement",
+        "de": "Aktualisierung",
+        "es": "Actualización"
+      },
+      "options": [
+        {
+          "value": "3",
+          "label": {
+            "en": "Every 3 hours",
+            "fr": "Toutes les 3 heures",
+            "de": "Alle 3 Stunden",
+            "es": "Cada 3 horas"
+          }
+        },
+        {
+          "value": "6",
+          "label": {
+            "en": "Every 6 hours",
+            "fr": "Toutes les 6 heures",
+            "de": "Alle 6 Stunden",
+            "es": "Cada 6 horas"
+          }
+        },
+        {
+          "value": "12",
+          "label": {
+            "en": "Every 12 hours",
+            "fr": "Toutes les 12 heures",
+            "de": "Alle 12 Stunden",
+            "es": "Cada 12 horas"
+          }
+        }
+      ]
+    },
+    {
+      "key": "language",
+      "type": "select",
+      "default": "fr",
+      "label": {
+        "en": "Language of names and messages",
+        "fr": "Langue des noms et messages",
+        "de": "Sprache der Namen und Nachrichten",
+        "es": "Idioma de nombres y mensajes"
+      },
+      "description": {
+        "en": "Feature names are fixed when a device is added.",
+        "fr": "Les noms des fonctionnalités sont figés à l'ajout de l'appareil.",
+        "de": "Die Namen der Funktionen werden beim Hinzufügen festgelegt.",
+        "es": "Los nombres de las funciones se fijan al añadir el dispositivo."
+      },
+      "options": [
+        {
+          "value": "en",
+          "label": {
+            "en": "English",
+            "fr": "Anglais",
+            "de": "Englisch",
+            "es": "Inglés"
+          }
+        },
+        {
+          "value": "fr",
+          "label": {
+            "en": "French",
+            "fr": "Français",
+            "de": "Französisch",
+            "es": "Francés"
+          }
+        },
+        {
+          "value": "de",
+          "label": {
+            "en": "German",
+            "fr": "Allemand",
+            "de": "Deutsch",
+            "es": "Alemán"
+          }
+        },
+        {
+          "value": "es",
+          "label": {
+            "en": "Spanish",
+            "fr": "Espagnol",
+            "de": "Spanisch",
+            "es": "Español"
+          }
+        }
+      ]
     }
   ],
   "actions": [
     {
-      "key": "test_weather",
-      "label": { "en": "Test the weather provider", "fr": "Tester le fournisseur météo" },
-      "timeout_seconds": 30
-    },
-    {
-      "key": "identify",
-      "label": { "en": "Identify a device", "fr": "Identifier un appareil" },
-      "fields": [
-        {
-          "key": "device",
-          "type": "select",
-          "source": "devices",
-          "label": { "en": "Device", "fr": "Appareil" },
-          "required": true
-        }
-      ]
+      "key": "status",
+      "label": {
+        "en": "Status",
+        "fr": "État",
+        "de": "Status",
+        "es": "Estado"
+      },
+      "description": {
+        "en": "Crous read, restaurants found, last day published, errors.",
+        "fr": "Crous lus, restaurants trouvés, dernier jour publié, erreurs.",
+        "de": "Gelesene Crous, gefundene Restaurants, letzter veröffentlichter Tag, Fehler.",
+        "es": "Crous leídos, restaurantes encontrados, último día publicado, errores."
+      },
+      "timeout_seconds": 30,
+      "fields": []
     }
   ],
   "scene_triggers": [
     {
-      "key": "motion_detected",
-      "label": { "en": "Motion detected", "fr": "Mouvement détecté" },
+      "key": "watched_dish",
+      "label": {
+        "en": "Watched dish on the menu",
+        "fr": "Plat surveillé au menu",
+        "de": "Überwachtes Gericht im Menü",
+        "es": "Plato vigilado en el menú"
+      },
       "description": {
-        "en": "A demo motion sensor saw a person or an animal move.",
-        "fr": "Un détecteur de démonstration a vu bouger une personne ou un animal."
+        "en": "A dish of a watched restaurant contains one of the watched words of the configuration.",
+        "fr": "Un plat d'un restaurant suivi contient un des mots surveillés de la configuration.",
+        "de": "Ein Gericht eines verfolgten Restaurants enthält eines der überwachten Wörter der Konfiguration.",
+        "es": "Un plato de un restaurante vigilado contiene una de las palabras vigiladas de la configuración."
       },
       "fields": [
         {
-          "key": "device",
-          "type": "select",
+          "key": "restaurant",
+          "type": "multi_select",
           "source": "devices",
-          "label": { "en": "Sensor", "fr": "Détecteur" }
+          "required": false,
+          "label": {
+            "en": "Restaurants",
+            "fr": "Restaurants",
+            "de": "Restaurants",
+            "es": "Restaurantes"
+          },
+          "description": {
+            "en": "Empty: any watched restaurant.",
+            "fr": "Vide : n'importe quel restaurant suivi.",
+            "de": "Leer: jedes verfolgte Restaurant.",
+            "es": "Vacío: cualquier restaurante vigilado."
+          }
         },
         {
-          "key": "target",
-          "type": "multi_select",
-          "label": { "en": "What moved", "fr": "Ce qui a bougé" },
+          "key": "day",
+          "type": "select",
+          "required": true,
+          "label": {
+            "en": "Day",
+            "fr": "Jour",
+            "de": "Tag",
+            "es": "Día"
+          },
+          "description": {
+            "en": "Today: fired between 7:00 and 10:00. Tomorrow: between 17:00 and 22:00.",
+            "fr": "Aujourd'hui : envoyé entre 7 h et 10 h. Demain : entre 17 h et 22 h.",
+            "de": "Heute: ausgelöst zwischen 7 und 10 Uhr. Morgen: zwischen 17 und 22 Uhr.",
+            "es": "Hoy: se envía entre las 7:00 y las 10:00. Mañana: entre las 17:00 y las 22:00."
+          },
           "options": [
-            { "value": "person", "label": { "en": "Person", "fr": "Personne" } },
-            { "value": "animal", "label": { "en": "Animal", "fr": "Animal" } }
+            {
+              "value": "today",
+              "label": {
+                "en": "Today",
+                "fr": "Aujourd'hui",
+                "de": "Heute",
+                "es": "Hoy"
+              }
+            },
+            {
+              "value": "tomorrow",
+              "label": {
+                "en": "Tomorrow",
+                "fr": "Demain",
+                "de": "Morgen",
+                "es": "Mañana"
+              }
+            }
           ]
+        },
+        {
+          "key": "word",
+          "type": "string",
+          "required": false,
+          "label": {
+            "en": "Word",
+            "fr": "Mot",
+            "de": "Wort",
+            "es": "Palabra"
+          },
+          "description": {
+            "en": "Empty: any watched word. Else in lower case, as in the configuration.",
+            "fr": "Vide : n'importe quel mot surveillé. Sinon en minuscules, comme dans la configuration.",
+            "de": "Leer: jedes überwachte Wort. Sonst kleingeschrieben, wie in der Konfiguration.",
+            "es": "Vacío: cualquier palabra vigilada. Si no, en minúsculas, como en la configuración."
+          }
         }
       ],
       "variables": [
         {
-          "key": "target",
+          "key": "restaurant_name",
           "type": "string",
-          "label": { "en": "What moved", "fr": "Ce qui a bougé" }
+          "label": {
+            "en": "Restaurant",
+            "fr": "Restaurant",
+            "de": "Restaurant",
+            "es": "Restaurante"
+          }
+        },
+        {
+          "key": "date",
+          "type": "string",
+          "label": {
+            "en": "Date (YYYY-MM-DD)",
+            "fr": "Date (AAAA-MM-JJ)",
+            "de": "Datum (JJJJ-MM-TT)",
+            "es": "Fecha (AAAA-MM-DD)"
+          }
+        },
+        {
+          "key": "meal",
+          "type": "string",
+          "label": {
+            "en": "Meal (lunch or dinner)",
+            "fr": "Repas (midi ou soir)",
+            "de": "Mahlzeit (Mittag oder Abend)",
+            "es": "Comida (almuerzo o cena)"
+          }
+        },
+        {
+          "key": "word",
+          "type": "string",
+          "label": {
+            "en": "Word",
+            "fr": "Mot",
+            "de": "Wort",
+            "es": "Palabra"
+          }
+        },
+        {
+          "key": "dish",
+          "type": "string",
+          "label": {
+            "en": "Dish",
+            "fr": "Plat",
+            "de": "Gericht",
+            "es": "Plato"
+          }
+        },
+        {
+          "key": "menu_text",
+          "type": "string",
+          "label": {
+            "en": "Whole meal",
+            "fr": "Repas complet",
+            "de": "Ganzes Essen",
+            "es": "Comida completa"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tomorrow_menu_published",
+      "label": {
+        "en": "Tomorrow's menu published",
+        "fr": "Menu du lendemain publié",
+        "de": "Menü von morgen veröffentlicht",
+        "es": "Menú de mañana publicado"
+      },
+      "description": {
+        "en": "A watched restaurant has a menu for tomorrow; checked between 17:00 and 22:00.",
+        "fr": "Un restaurant suivi a un menu pour demain ; vérifié entre 17 h et 22 h.",
+        "de": "Ein verfolgtes Restaurant hat ein Menü für morgen; geprüft zwischen 17 und 22 Uhr.",
+        "es": "Un restaurante vigilado tiene menú para mañana; se comprueba entre las 17:00 y las 22:00."
+      },
+      "fields": [
+        {
+          "key": "restaurant",
+          "type": "multi_select",
+          "source": "devices",
+          "required": false,
+          "label": {
+            "en": "Restaurants",
+            "fr": "Restaurants",
+            "de": "Restaurants",
+            "es": "Restaurantes"
+          },
+          "description": {
+            "en": "Empty: any watched restaurant.",
+            "fr": "Vide : n'importe quel restaurant suivi.",
+            "de": "Leer: jedes verfolgte Restaurant.",
+            "es": "Vacío: cualquier restaurante vigilado."
+          }
+        }
+      ],
+      "variables": [
+        {
+          "key": "restaurant_name",
+          "type": "string",
+          "label": {
+            "en": "Restaurant",
+            "fr": "Restaurant",
+            "de": "Restaurant",
+            "es": "Restaurante"
+          }
+        },
+        {
+          "key": "date",
+          "type": "string",
+          "label": {
+            "en": "Date (YYYY-MM-DD)",
+            "fr": "Date (AAAA-MM-JJ)",
+            "de": "Datum (JJJJ-MM-TT)",
+            "es": "Fecha (AAAA-MM-DD)"
+          }
+        },
+        {
+          "key": "menu_text",
+          "type": "string",
+          "label": {
+            "en": "Tomorrow's menu",
+            "fr": "Menu de demain",
+            "de": "Menü von morgen",
+            "es": "Menú de mañana"
+          }
         }
       ]
     }
   ],
   "scene_actions": [
     {
-      "key": "identify_device",
-      "label": { "en": "Identify a device", "fr": "Identifier un appareil" },
-      "description": {
-        "en": "Make a device signal itself (the demo light blinks).",
-        "fr": "Fait se signaler un appareil (la lampe de démonstration clignote)."
+      "key": "menu_of_day",
+      "label": {
+        "en": "Get the Crous menu",
+        "fr": "Obtenir le menu du Crous",
+        "de": "Crous-Menü abrufen",
+        "es": "Obtener el menú del Crous"
       },
-      "timeout_seconds": 15,
+      "description": {
+        "en": "Today's or tomorrow's menu in a sentence ready to send or to say.",
+        "fr": "Le menu du jour ou de demain en une phrase prête à envoyer ou à lire.",
+        "de": "Das Menü von heute oder morgen in einem fertigen Satz zum Senden oder Vorlesen.",
+        "es": "El menú de hoy o de mañana en una frase lista para enviar o leer."
+      },
+      "timeout_seconds": 20,
       "fields": [
         {
-          "key": "device",
+          "key": "restaurant",
           "type": "select",
           "source": "devices",
-          "label": { "en": "Device", "fr": "Appareil" },
-          "required": true
+          "required": false,
+          "label": {
+            "en": "Restaurant",
+            "fr": "Restaurant",
+            "de": "Restaurant",
+            "es": "Restaurante"
+          },
+          "description": {
+            "en": "Empty: every watched restaurant.",
+            "fr": "Vide : tous les restaurants suivis.",
+            "de": "Leer: alle verfolgten Restaurants.",
+            "es": "Vacío: todos los restaurantes vigilados."
+          }
+        },
+        {
+          "key": "day",
+          "type": "select",
+          "required": false,
+          "label": {
+            "en": "Day",
+            "fr": "Jour",
+            "de": "Tag",
+            "es": "Día"
+          },
+          "description": {
+            "en": "Empty: today.",
+            "fr": "Vide : aujourd'hui.",
+            "de": "Leer: heute.",
+            "es": "Vacío: hoy."
+          },
+          "options": [
+            {
+              "value": "today",
+              "label": {
+                "en": "Today",
+                "fr": "Aujourd'hui",
+                "de": "Heute",
+                "es": "Hoy"
+              }
+            },
+            {
+              "value": "tomorrow",
+              "label": {
+                "en": "Tomorrow",
+                "fr": "Demain",
+                "de": "Morgen",
+                "es": "Mañana"
+              }
+            }
+          ]
+        },
+        {
+          "key": "meal",
+          "type": "select",
+          "required": false,
+          "label": {
+            "en": "Meal",
+            "fr": "Repas",
+            "de": "Mahlzeit",
+            "es": "Comida"
+          },
+          "description": {
+            "en": "Empty: lunch, and dinner when served.",
+            "fr": "Vide : le midi, et le soir s'il est servi.",
+            "de": "Leer: Mittag, und Abend, wenn serviert.",
+            "es": "Vacío: almuerzo, y cena si se sirve."
+          },
+          "options": [
+            {
+              "value": "lunch",
+              "label": {
+                "en": "Lunch",
+                "fr": "Midi",
+                "de": "Mittag",
+                "es": "Almuerzo"
+              }
+            },
+            {
+              "value": "dinner",
+              "label": {
+                "en": "Dinner",
+                "fr": "Soir",
+                "de": "Abend",
+                "es": "Cena"
+              }
+            }
+          ]
         }
       ],
       "outputs": [
         {
-          "key": "signalled",
-          "type": "boolean",
-          "label": { "en": "Device signalled", "fr": "Appareil signalé" }
+          "key": "sentence",
+          "type": "string",
+          "label": {
+            "en": "Sentence",
+            "fr": "Phrase",
+            "de": "Satz",
+            "es": "Frase"
+          }
+        },
+        {
+          "key": "has_menu",
+          "type": "number",
+          "label": {
+            "en": "Menu published (1) or not (0)",
+            "fr": "Menu publié (1) ou non (0)",
+            "de": "Menü veröffentlicht (1) oder nicht (0)",
+            "es": "Menú publicado (1) o no (0)"
+          }
         }
       ]
     }
   ],
   "widgets": [
     {
-      "key": "demo_status",
-      "label": { "en": "Demo status", "fr": "État de la démo" },
-      "description": {
-        "en": "Live temperature and plug power, plug connection and observed location.",
-        "fr": "Température et puissance en direct, connexion de la prise, position observée."
+      "key": "menus",
+      "label": {
+        "en": "Crous menus",
+        "fr": "Menus du Crous",
+        "de": "Crous-Menüs",
+        "es": "Menús del Crous"
       },
-      "icon": "activity",
-      "action_timeout_seconds": 15
+      "description": {
+        "en": "Today's and tomorrow's menu of your Crous restaurants; tap a row for the whole menu.",
+        "fr": "Menu du jour et de demain de vos restaurants du Crous ; touchez une ligne pour le détail.",
+        "de": "Menü von heute und morgen deiner Crous-Restaurants; tippe eine Zeile für alles an.",
+        "es": "Menú de hoy y de mañana de sus restaurantes del Crous; toque una fila para el detalle."
+      },
+      "icon": "coffee",
+      "settings": [
+        {
+          "key": "restaurants",
+          "type": "multi_select",
+          "source": "devices",
+          "required": false,
+          "label": {
+            "en": "Restaurants shown",
+            "fr": "Restaurants affichés",
+            "de": "Angezeigte Restaurants",
+            "es": "Restaurantes mostrados"
+          },
+          "description": {
+            "en": "Empty: every watched restaurant.",
+            "fr": "Vide : tous les restaurants suivis.",
+            "de": "Leer: alle verfolgten Restaurants.",
+            "es": "Vacío: todos los restaurantes vigilados."
+          }
+        },
+        {
+          "key": "show_tomorrow",
+          "type": "boolean",
+          "default": true,
+          "required": false,
+          "label": {
+            "en": "Show tomorrow",
+            "fr": "Afficher demain",
+            "de": "Morgen anzeigen",
+            "es": "Mostrar mañana"
+          }
+        },
+        {
+          "key": "show_dinner",
+          "type": "boolean",
+          "default": true,
+          "required": false,
+          "label": {
+            "en": "Show the dinner",
+            "fr": "Afficher le soir",
+            "de": "Abendessen anzeigen",
+            "es": "Mostrar la cena"
+          }
+        }
+      ]
     }
   ]
 }
