@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-29
+
 ### Added
 
 - The daily menus of the Crous university restaurants and cafeterias, for the
@@ -25,3 +27,6 @@ the notes of the version's GitHub Release.
   ready to send or to say.
 - Scene triggers "Watched dish on the menu" (words of your choice, such as
   "frites") and "Tomorrow's menu published".
+
+[Unreleased]: https://github.com/guim31/gladys-crous/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/guim31/gladys-crous/releases/tag/v1.0.0
