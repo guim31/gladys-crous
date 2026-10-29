@@ -288,6 +288,15 @@ test("widget: today's and tomorrow's menus, a badge for vegetarian, hideable par
     items.map((item) => item.title),
     ["Resto U' Insa · Today"],
   );
+  // A long name given in Gladys: the day label stays whole.
+  await world.fake.deviceUpdated({ ...insa, name: 'R'.repeat(80) });
+  const long = await world.fake.widgetGet('menus', {
+    settings: { restaurants: [insa.external_id] },
+    language: 'fr',
+  });
+  const titles = long.data.content.components[0].items.map((item) => item.title);
+  assert.ok(titles[0].endsWith(" · Aujourd'hui") && titles[1].endsWith(' · Demain'));
+  assert.ok(titles.every((title) => title.length <= 60));
 });
 
 test('widget: a closure shows the notice of the Crous in the detail', async (t) => {

@@ -12,7 +12,7 @@
 // -----------------------------------------------------------------------------
 
 import { WIDGET_COLORS } from '@gladysassistant/integration-sdk';
-import { SLOTS, servesOn, slotText, vegetarianDishes } from './devices.js';
+import { SLOTS, slotText, vegetarianDishes } from './devices.js';
 import { TEXT, say } from './messages.js';
 import { parisMinutes } from './dates.js';
 import { WIDGET_KEY } from './service.js';
@@ -59,9 +59,11 @@ function headline(restaurant, date, language, slots) {
 function row(service, entry, day, language, slots) {
   const { found, date } = service.dayOf(entry.deviceId, day);
   const restaurant = found?.restaurant ?? { days: new Map() };
-  const title = clip(`${entry.name} · ${say(TEXT, language, day)}`, 60);
+  // The day label is never cut: two rows of a long name stay distinct.
+  const dayLabel = say(TEXT, language, day);
+  const title = `${clip(entry.name, 60 - dayLabel.length - 3)} · ${dayLabel}`;
   const subtitle = clip(headline(restaurant, date, language, slots), 60);
-  if (!servesOn(restaurant, date)) {
+  if (!slots.some((slot) => restaurant.days.get(date)?.[slot]?.status === 'menu')) {
     const meal = restaurant.days.get(date)?.lunch;
     return meal?.status === 'closed'
       ? { title, subtitle, description: details(restaurant, date, language, slots) }

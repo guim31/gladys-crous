@@ -273,7 +273,7 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
   et avis « * : certains produits… » écartés.
 - Végétarien : seulement ce que le restaurant signale (plat « Veg … », « végétarien », « veggie », « vegan », ou
   rubrique végétarienne sans viande ni poisson dans son nom). « Yaourt végétal » n'en est pas.
-- Identifiants : `restaurant:<crous>-<id du flux>` (ex. `toulouse-167`) ; les clés de Crous contiennent un point
-  (`aix.marseille`), conservé par `slug`. Les ids de restaurant sont numériques et stables dans le flux.
+- Identifiants : `restaurant:<crous>-<id du flux>` (ex. `toulouse-167`) ; le point d'une clé de Crous devient un tiret
+  (`aix.marseille` → `aix-marseille-<id>`) : ne jamais changer `slug`. Les ids de restaurant sont numériques et stables dans le flux.
 - Beaucoup de restaurants n'ont aucun menu (Aix-Marseille : 0 sur 48 le 29/10) ou seulement les jours ouverts :
   un jour absent avant le dernier jour publié est « Pas de service », après « Menu pas encore publié ».

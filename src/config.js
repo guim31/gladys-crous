@@ -52,7 +52,7 @@ export function positionOf(value) {
   const text = String(value ?? '').trim();
   const numbers =
     text.includes(';') || (text.match(/,/g) ?? []).length !== 1
-      ? text.split(/[;\s]+/).map((part) => part.replace(',', '.'))
+      ? text.split(/[;\s]+/).map((part) => part.replace(/,$/, '').replace(/,/g, '.'))
       : text.split(',');
   const values = numbers.map((part) => part.trim()).filter(Boolean);
   if (values.length !== 2) {

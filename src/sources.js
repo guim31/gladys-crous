@@ -71,8 +71,9 @@ export const feedUrl = (key) => `http://${FEED_HOST}/feed/${key}/externe/crous-$
 
 export const MEALS = { midi: 'lunch', soir: 'dinner' };
 
-// Categories that hold no dish: opening hours, notices.
-const NOT_DISHES = /^(infos?|informations?|horaires?|divers infos?)$/;
+// Categories that hold no dish: opening hours, notices, payment, prices.
+const NOT_DISHES =
+  /^(infos?|informations?|horaires?|divers infos?|paiements?|moyens? de paiement|tarifs?|prix)$/;
 // Notices written as a dish: "* : certains produits ne sont pas disponibles…".
 const NOTICE = /^\*\s*:/;
 const CLOSED = /^structure ferm/;

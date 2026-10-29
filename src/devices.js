@@ -39,6 +39,10 @@ export const restaurantPlatformId = (crousKey, restaurantId) =>
 // section.
 const VEGETARIAN_WORD = /(^|[^a-z])(vg|veg|vege|veggie|vegan|vegetarien|vegetarienne)s?([^a-z]|$)/;
 const MEAT_OR_FISH = /viande|poisson|carne/;
+// A dish naming a meat or a fish, or a list of options ("Rosette/jambon
+// beurre/végétarien"): not vegetarian, even in a vegetarian section.
+const MEAT_DISH =
+  /\/|(^|[^a-z])(jambon|rosette|saucisson|saucisse|poulet|dinde|boeuf|porc|veau|agneau|merguez|chorizo|lardons?|bacon|kebab|steak|viande|thon|saumon|colin|poisson|crevettes?)([^a-z]|$)/;
 
 /** The dishes of a meal the restaurant marks as vegetarian. */
 export function vegetarianDishes(meal) {
@@ -50,7 +54,8 @@ export function vegetarianDishes(meal) {
     const name = fold(section.name);
     const wholeSection = VEGETARIAN_WORD.test(name) && !MEAT_OR_FISH.test(name);
     for (const dish of section.dishes) {
-      if (wholeSection || VEGETARIAN_WORD.test(fold(dish))) {
+      const folded = fold(dish);
+      if ((wholeSection || VEGETARIAN_WORD.test(folded)) && !MEAT_DISH.test(folded)) {
         found.push(dish);
       }
     }
@@ -83,9 +88,14 @@ export const lastDateOf = (restaurant) =>
 
 /** Why a meal has no dishes on `date`: 'closed', 'unknown', 'notServed' or 'notPublished'. */
 export function reasonOf(restaurant, date, slot) {
-  const meal = restaurant?.days?.get(date)?.[slot] ?? null;
+  const day = restaurant?.days?.get(date);
+  const meal = day?.[slot] ?? null;
   if (meal?.status === 'closed' || meal?.status === 'unknown') {
     return meal.status;
+  }
+  // A closure published for the lunch only closes the whole day.
+  if (!meal && SLOTS.some((other) => day?.[other]?.status === 'closed')) {
+    return 'closed';
   }
   const last = lastDateOf(restaurant);
   return !last || date > last ? 'notPublished' : 'notServed';

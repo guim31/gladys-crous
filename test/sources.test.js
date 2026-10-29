@@ -60,6 +60,8 @@ test('Toulouse: every restaurant, its position, lunch and dinner by section', ()
   // The closures of the holidays and of 11 November.
   assert.equal(arsenal.days.get('2026-11-01').lunch.status, 'closed');
   assert.equal(reasonOf(arsenal, '2026-11-11', 'lunch'), 'closed');
+  // The lunch closure closes the dinner too.
+  assert.equal(reasonOf(arsenal, '2026-11-11', 'dinner'), 'closed');
   // Between two days published: not served; after the last one: not published.
   assert.equal(reasonOf(arsenal, '2026-11-05', 'lunch'), 'notServed');
   assert.equal(reasonOf(arsenal, '2026-11-12', 'lunch'), 'notPublished');
@@ -91,6 +93,10 @@ test('vegetarian dishes: marked by the dish or by its section, not a "végétal"
       { name: 'Plat chaud', dishes: [{ name: 'VG Bouchée kefta' }, { name: 'Rougail saucisse' }] },
       { name: 'Viande / poisson / végé', dishes: [{ name: 'Poulet rôti' }] },
       { name: 'Desserts', dishes: [{ name: 'Yaourt végétal' }, { name: 'Brownie vegan' }] },
+      {
+        name: 'Sandwichs',
+        dishes: [{ name: 'Rosette/jambon beurre/végétarien/brie' }, { name: 'Merguez végé thon' }],
+      },
     ],
   });
   assert.deepEqual(vegetarianDishes(meal), [
@@ -128,6 +134,7 @@ test('past days are dropped; notices, breakfasts and empty meals are not menus',
       name: 'midi',
       foodcategory: [
         { name: 'HORAIRES', dishes: [{ name: '11h30 - 13h30' }] },
+        { name: 'Paiement', dishes: [{ name: 'pour le repas à 1 € : IZLY' }] },
         { name: 'Plats', dishes: [{ name: '* : certains produits ne sont pas disponibles' }] },
       ],
     }),
@@ -212,6 +219,8 @@ test('home position: dot or comma decimals, nonsense refused', () => {
   assert.deepEqual(positionOf('43.6045, 1.4440'), { lat: 43.6045, lon: 1.444 });
   assert.deepEqual(positionOf('43,6045; 1,4440'), { lat: 43.6045, lon: 1.444 });
   assert.deepEqual(positionOf('43.6 -1.2'), { lat: 43.6, lon: -1.2 });
+  assert.deepEqual(positionOf('43,6045 1,4440'), { lat: 43.6045, lon: 1.444 });
+  assert.deepEqual(positionOf('43,6045, 1,4440'), { lat: 43.6045, lon: 1.444 });
   assert.equal(positionOf(''), null);
   assert.equal(positionOf('Toulouse'), null);
   assert.equal(positionOf('95, 1'), null);
